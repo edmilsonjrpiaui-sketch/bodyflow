@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 230" width="400" height="230">
+  <defs>
+    <linearGradient id="cg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24d4ee"/>
+      <stop offset="100%" stop-color="#0fa8c4"/>
+    </linearGradient>
+    <linearGradient id="gg" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4ecb4e"/>
+      <stop offset="100%" stop-color="#8ce84a"/>
+    </linearGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e2a4a"/>
+      <stop offset="100%" stop-color="#163d68"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="230" rx="18" fill="url(#bg)"/>
+
+  <!-- Outer swoosh arc -->
+  <path d="M118 155 Q98 124 107 93 Q116 64 150 57"
+    fill="none" stroke="url(#cg)" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- B vertical bar -->
+  <rect x="150" y="57" width="11" height="72" rx="5.5" fill="url(#cg)"/>
+
+  <!-- B top bump -->
+  <path d="M161 57 Q185 57 185 72 Q185 87 161 87"
+    fill="none" stroke="url(#cg)" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- B bottom bump -->
+  <path d="M161 87 Q190 87 190 104 Q190 121 161 121"
+    fill="none" stroke="url(#cg)" stroke-width="11" stroke-linecap="round"/>
+
+  <!-- Green arrow chevron -->
+  <path d="M170 52 L200 44 L195 66 Z" fill="url(#gg)"/>
+
+  <!-- Sub swoosh -->
+  <path d="M118 160 Q152 172 194 155"
+    fill="none" stroke="url(#cg)" stroke-width="4.5" stroke-linecap="round" opacity="0.65"/>
+
+  <!-- Wordmark Body -->
+  <text x="212" y="110"
+    font-family="Arial Black, Arial, sans-serif"
+    font-size="48" font-weight="900" letter-spacing="-1"
+    fill="#ffffff">Body</text>
+
+  <!-- Wordmark Flow -->
+  <text x="212" y="110"
+    font-family="Arial Black, Arial, sans-serif"
+    font-size="48" font-weight="900" letter-spacing="-1"
+    fill="#24d4ee" dx="116">Flow</text>
+
+  <!-- Tagline -->
+  <text x="214" y="136"
+    font-family="Arial, sans-serif"
+    font-size="12" font-weight="400" letter-spacing="2.5"
+    fill="#7fb3d8">Fluxo · Disciplina · Propósito</text>
+</svg>
